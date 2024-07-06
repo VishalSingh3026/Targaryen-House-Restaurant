@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Targaryen House Restaurant</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .navbar {
+      background-color: #343a40;
+    }
+
+    .navbar-brand {
+      color: #ffffff;
+    }
+
+    .navbar-nav .nav-link {
+      color: #ffffff;
+    }
+
+    .hero-section {
+      background-image: url('/restaurantimage3.jpeg');
+      background-size: cover;
+      background-position: center;
+      color: #e9efef;
+      text-align: center;
+      padding: 150px 0;
+      
+    }
+
+    .menu-section {
+        background-color:#ecf0efe4;
+      text-align: center;
+      padding: 5px 0;
+    }
+
+    .contact-section {
+      background-color: #ecf0efe4 ;
+      padding: 2px 0;
+    }
+    
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Targaryen House Restaurant</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/menu.html" target="_main">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact.html" target="_main">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="hero-section">
+    <h1><b>Welcome to Targaryen House Restaurant</b></h1>
+    <p><b>Where every flavor tells a story.</b></p>
+  </div>
+
+  <!-- Menu Section -->
+  <div class="menu-section" id="menu">
+    <h2><b>Our Menu</b></h2>
+    <p><b>Delicious dishes prepared with love</b></p>
+    <img src="/burger.jpeg"  alt="burger">
+    <img src="/chowmin.jpeg" width="240" alt="Chowmin">
+    <img src="/dosa.jpeg" width="210" alt="Dosa">
+    <img src="/drinks.jpeg" width="280" alt="Soft Drinks">
+    <img src="/multipefood.jpeg" width="210" alt="Food">
+    <img src="/rasmalai.jpeg" height="160" alt="rasmalai">
+    <!-- Add your menu items here -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="contact-section" id="contact">
+    <h2>Contact Us</h2>
+    <p>Have a question or want to make a reservation? Reach out to us!</p>
+    <!-- Add your contact form or contact information here -->
+  </div>
+
+  <!-- Bootstrap JS and Popper.js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
